@@ -3,14 +3,16 @@ import Link from "next/link";
 export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-5 m-10">
-        <div>
-            <Link className="underline" href="/news">Back to Dashboard</Link>
-        </div>
+      <div>
+        <Link className="underline" href="/news">
+          Back to Dashboard
+        </Link>
+      </div>
       {/* Hero Section */}
       <section className="text-center mb-12">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">About Me</h1>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-          Welcome to my about page! I'm a passionate entry-level full stack
+          Welcome to my about page! I&apos;m a passionate entry-level full stack
           developer eager to make an impact in the tech world.
         </p>
       </section>
@@ -18,7 +20,7 @@ export default function About() {
       {/* Profile Section */}
       <section className="flex flex-col items-center text-center mb-12">
         <h2 className="text-2xl font-bold text-gray-900">
-          Hi, I'm Adaeze Ugwumba
+          Hi, I&apos;m Adaeze Ugwumba
         </h2>
         <p className="text-gray-600 mt-2">
           I specialize in both front-end and back-end development, and I'm

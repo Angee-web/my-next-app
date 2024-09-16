@@ -17,8 +17,8 @@ export default function Contact() {
           Contact Me
         </h1>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-          I'd love to hear from you! Whether you have a question, feedback, or
-          just want to connect, feel free to reach out.
+          I&apos;d love to hear from you! Whether you have a question, feedback,
+          or just want to connect, feel free to reach out.
         </p>
       </section>
 
